@@ -1,0 +1,365 @@
+@font-face {
+ font-family: "OpenSans-R";
+ src: url("../Fonts/OpenSans-Regular.woff");
+}
+
+@font-face {
+  font-family: "OpenSans-B";
+ src: url("../Fonts/OpenSans-Bold.woff");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 641px){
+
+/*=General=*/
+.background{
+  background-image: url("../Images/DSCF0492.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 640px;
+  margin: 0 auto; 
+}
+
+.wrapper-img {
+  background-image: url("../Images/DSCF04923.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  width: 1300px;
+  height: 640px;
+  margin: 0 auto; 
+  z-index: 0;
+}
+
+.text{
+  font-family: "OpenSans-R";
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.line{
+  background: white;
+  height: 3px;
+  z-index: 1;
+}
+
+.lineScew{
+  width: 20%;
+  background: white;
+  height: 3px;
+  z-index: 1;
+  -ms-transform: skewY(40deg);
+  -webkit-transform: skewY(40deg);
+  transform: skewY(40deg);
+}
+
+.lineScewFirst{
+  -ms-transform: skewY(-40deg);
+  -webkit-transform: skewY(-40deg);
+  transform: skewY(-40deg);
+}
+
+.buttonImage{
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button{
+  border-radius: 3px;
+  border-color: white;
+}
+.button:nth-child(-n+5){
+  margin-right: 10px;
+}
+
+/*=Snaks=*/
+.wrapperSnaks{
+  margin-top: 27%;
+  margin-left: 8%;
+  width: 33%;
+  height: 19%;
+  z-index: 1;
+}
+
+#buttonSnak{
+  display: block;
+  opacity: 0;
+}
+
+#textSnak{
+  margin-top: 10%;
+  display: block;
+  opacity: 0;
+}
+
+#one{
+  margin-left: 10%;
+  margin-top: -13%;
+  margin-bottom: 3%;
+  display: block;
+  width: 20%;
+  background: white;
+  height: 3px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#two{
+  width: 70%;
+  margin-top: 2%;
+  margin-bottom: 19%;
+  margin-left: 30%;
+  display: block;
+  opacity: 0;
+}
+
+.allSnaks{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  margin-top: -29%;
+}
+
+#snakOne{
+  background-image: url("../Images/becon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#snakTwo{
+  background-image: url("../Images/bok.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#snakThree{
+  background-image: url("../Images/flower.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*=Shaurma=*/
+#textShaurma{
+  margin-top: -30%;
+  display: block;
+  opacity: 0;
+}
+
+#buttonShaurma{
+  display: block;
+  opacity: 0;
+}
+
+.wrapperShaurma{
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 26%;
+  height: 45%;
+  z-index: 1;
+}
+
+#shaurma{
+  margin-top: -20%;
+}
+
+#four{
+  width: 25%;
+  margin-left: -23%;
+  margin-top: 10%;
+  display: block;
+  opacity: 0;
+}
+
+#three{
+  margin-left: -143%;
+  width: 120%;
+  margin-bottom: -0.5%;
+  display: block;
+  opacity: 0;
+}
+
+#shaurmaOne{
+  background-image: url("../Images/chiken.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shaurmaTwo{
+  background-image: url("../Images/pork.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shaurmaThree{
+  background-image: url("../Images/sousage.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shaurmaFour{
+  background-image: url("../Images/fish.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shaurmaFive{
+  background-image: url("../Images/veg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.allShaurma{
+  display: flex;
+  flex-direction: row;
+  margin-top: -20%;
+  margin-bottom: 3%;
+  margin-left: -135%;
+}
+
+/*=Souse=*/
+#textSouse{
+  display: block;
+  opacity: 0;
+  margin-top: -13%;
+}
+
+#buttonSouse{
+  display: block;
+  opacity: 0;
+}
+
+.wrapperSouse{
+  margin-top: 33%;
+  margin-left: -28%;
+  width: 10%;
+  height: 13%;
+  z-index: 1;
+}
+
+#five{
+  width: 70%;
+  margin-top: 40%;
+  margin-left: 30%;
+  display: block;
+  opacity: 0;
+}
+
+#six{
+  margin-left: 100%;
+  width: 200%;
+  margin-top: 27%;
+  display: block;
+  opacity: 0;
+}
+
+#souseOne{
+  background-image: url("../Images/tomato.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#souseTwo{
+  background-image: url("../Images/garlic.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#souseThree{
+  background-image: url("../Images/cream.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.allSouse{
+  display: flex;
+  flex-direction: row;
+  margin-left: 120%;
+  margin-top: -29.5%;
+  margin-bottom: -20%;
+}
+
+/*=Potato=*/
+#textPotato{
+  display: block;
+  opacity: 0;
+}
+
+#buttonPotato{
+  display: block;
+  opacity: 0;
+}
+
+#seven{
+  width: 60%;
+  margin-left: 40%;
+  margin-top: 10%;
+  display: block;
+  opacity: 0;
+}
+
+#eight{
+  margin-top: 13%;
+  margin-left: 5%;
+  margin-bottom: 15%;
+  width: 35%;
+  background: white;
+  height: 3px;
+  z-index: 1;
+  display: block;
+  opacity: 0;
+}
+
+.allPotato{
+  display: flex;
+  flex-direction: row;
+  margin-top: -70%;
+  margin-bottom: -5%;
+  margin-left: 55%;
+}
+
+.wrapperPotato{
+  margin-left: 25%;
+  width: 17%;
+  height: 33%;
+  z-index: 1;
+  margin-top: 20%;
+}
+
+#potatoOne{
+  background-image: url("../Images/potato.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
