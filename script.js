@@ -107,6 +107,22 @@ animationButton(allPotato, potato)
 
 
 
+let value = {
+    name: 'Маг', 
+    health: 5
+}
+
+function lifeStrip(value){
+    if(value.health > 50){
+        console.log('healthy')
+    } else if(value.health >= 15 && value.health <= 50){
+    	console.log('wounded')
+    } else if(value.health < 15){
+    	console.log('critical')
+    }
+}
+
+lifeStrip(value);
 
 
 
